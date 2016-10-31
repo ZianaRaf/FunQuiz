@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Fun Quiz</string>
+    <string name="title_activity_brands">BrandsActivity</string>
+    <string name="activity_title">Topic Title</string>
+    <string name="topic_string">Topic</string>
+    <string name="topic_slogan">Slogans</string>
+    <string name="topic_Odd">Odd One Out</string>
+    <string name="topic_nameit">Name it</string>
+
+    <string name="title_font">fonts/segoeuil.ttf</string>
+    <string name="image_description">image</string>
+    <string name="score_text">Your Score</string>
+    <string name="correct_answer">Correct</string>
+    <string name="dialog_confirm">OK</string>
+
+
+    <!--Name it String-->
+    <!--apple-->
+    <string name="apple_1">Apples</string>
+    <string name="apple_2r">Apple</string>
+    <string name="apple_3">Applles</string>
+    <!--lambo-->
+    <string name="lambo_1">Lamboghini</string>
+    <string name="lambo_2r">Lamborghini</string>
+    <string name="lambo_3">Lamboghin</string>
+    <!--Googol-->
+    <string name="goog_1">Google</string>
+    <string name="goog_2">Trillion</string>
+    <string name="goog_3r">Googol</string>
+    <!--Mcdonalds-->
+    <string name="mcD_1">MacDonalds</string>
+    <string name="mcD_2">McDonald</string>
+    <string name="mcD_3r">McDonald\'s</string>
+
+    <!--Twitter-->
+    <string name="twit_1">Tweeter</string>
+    <string name="twit_2">Twiter</string>
+    <string name="twit_3r">Twitter</string>
+
+
+
+    <!--Slogans-->
+    <!--QUESTIONS-->
+
+    <string name="facebook_question">Wasting people\'s lives since 2004.</string>
+   <string name="apple_question">Think Different.</string>
+    <string name="playstation_question">Live in your world, play in ours.</string>
+    <string name="google_question">Don\'t be evil.</string>
+    <string name="standard_question">Moving forward.</string>
+
+
+
+    <!--Apple-->
+    <string name="Snapchat">Snapchat</string>
+    <string name="Apple">Apple</string>
+    <string name="Intel">Intel</string>
+    <string name="Tesla">Tesla</string>
+     <!--PlayStation-->
+     <string name="playstation">PlayStation</string>
+     <string name="Candy_crush">Candy Crush</string>
+     <string name="Amazon">Amazon</string>
+     <string name="EA">Electronic Arts</string>
+     <!--Google-->
+     <string name="CIA">CIA</string>
+    <string name="Palantir">Palantair</string>
+    <string name="Xiaomi">Xiaomi</string>
+    <string name="Google">Google</string>
+    <!--Facebook-->
+    <string name="Mxit">Mxit</string>
+    <string name="Whatsapp">WhatsApp</string>
+    <string name="Facebook">Facebook</string>
+    <string name="DSTV">DSTV</string>
+
+    <!--Standard Bank-->
+    <string name="Transnet">Transnet</string>
+    <string name="standard">Standard Bank</string>
+    <string name="Gautrain">Gautrain</string>
+    <string name="BMW">BMW</string>
+
+
+
+
+    <!--Odd One Out-->
+    <string name="vw">VW</string>
+    <string name="BMW_ooo">BMW</string>
+    <string name="Volvo">VOLVO</string>
+    <string name="merc">BENZ</string>
+
+    <string name="polo">VW</string>
+    <string name="jetta">BMW</string>
+    <string name="golf">GOLF</string>
+    <string name="Cclass">C-CLASS</string>
+
+    <string name="Trey">TREY BURKE</string>
+    <string name="Kobe">KIOBE BRYANT</string>
+    <string name="michael">MICHAEL JOHNSON</string>
+    <string name="Russel">RUSSELL WESTBROOK</string>
+
+    <string name="dubai">DUBAI</string>
+    <string name="india">INDIA</string>
+    <string name="dhabi">ABU DHABI</string>
+    <string name="saudi">SAUDI ARABIA</string>
+
+    <string name="nest">NEST</string>
+    <string name="nexus">NEXUS</string>
+    <string name="note">NOTE</string>
+    <string name="pixel">PIXEL</string>
+
+
+
+
+
+</resources>

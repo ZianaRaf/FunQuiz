@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/mainLayout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/home_bg"
+              android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="@dimen/activity_vertical_margn8"
+        android:background="@drawable/bg_gradient"
+        android:fitsSystemWindows="true"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+
+        />
+
+
+    <TextView
+        android:id="@+id/topic_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/activity_vertical_margin24"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/activity_title"
+        android:textColor="@color/topicColor"
+        android:textSize="@dimen/topic_title_size"
+        android:textStyle="normal"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+    <LinearLayout
+
+        android:id="@+id/QuizContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/containerColor"
+        android:orientation="vertical">
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_height"
+                android:layout_marginBottom="@dimen/activity_vertical_margin16"
+                android:layout_marginLeft="@dimen/activity_vertical_margn8"
+                android:layout_marginRight="@dimen/activity_vertical_margn8"
+                android:layout_marginTop="@dimen/activity_vertical_margin16"
+                android:elevation="@dimen/card_elevation2">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/image_height"
+                    android:contentDescription="image"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/apple"
+                    />
+
+                <RadioGroup
+                    android:id="@+id/rgApple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="@dimen/activity_vertical_margn8"
+                    android:layout_marginBottom="@dimen/activity_vertical_margn8"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/apple_1"
+                        android:layout_marginTop="@dimen/activity_vertical_margn4"/>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/apple_2r"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/apple_3"/>
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height"
+            android:layout_marginBottom="@dimen/activity_vertical_margin16"
+            android:layout_marginLeft="@dimen/activity_vertical_margn8"
+            android:layout_marginRight="@dimen/activity_vertical_margn8"
+            android:layout_marginTop="@dimen/activity_vertical_margin16"
+            android:elevation="@dimen/card_elevation2">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_height"
+                android:contentDescription="image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lambo"
+                />
+
+            <RadioGroup
+                android:id="@+id/rgLambo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/activity_vertical_margn8"
+                android:layout_marginBottom="@dimen/activity_vertical_margn8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lambo_1"
+                    android:layout_marginTop="@dimen/activity_vertical_margin2"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lambo_2r"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lambo_3"/>
+            </RadioGroup>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height"
+            android:layout_marginBottom="@dimen/activity_vertical_margin16"
+            android:layout_marginLeft="@dimen/activity_vertical_margn8"
+            android:layout_marginRight="@dimen/activity_vertical_margn8"
+            android:layout_marginTop="@dimen/activity_vertical_margin16"
+            android:elevation="@dimen/card_elevation2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_height"
+                android:contentDescription="image"
+                android:scaleType="center"
+                android:src="@drawable/goog"
+                />
+
+            <RadioGroup
+                android:id="@+id/rgGoogol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/activity_vertical_margn8"
+                android:layout_marginBottom="@dimen/activity_vertical_margn8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goog_1"
+                    android:layout_marginTop="@dimen/activity_vertical_margn4"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goog_2"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goog_3r"/>
+            </RadioGroup>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height"
+            android:layout_marginBottom="@dimen/activity_vertical_margin16"
+            android:layout_marginLeft="@dimen/activity_vertical_margn8"
+            android:layout_marginRight="@dimen/activity_vertical_margn8"
+            android:layout_marginTop="@dimen/activity_vertical_margin16"
+            android:elevation="@dimen/card_elevation2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_height"
+                android:contentDescription="image"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mac"
+                />
+
+            <RadioGroup
+                android:id="@+id/rgMacD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/activity_vertical_margn8"
+                android:layout_marginBottom="@dimen/activity_horizontal_margn8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mcD_1"
+                    android:layout_marginTop="@dimen/activity_vertical_margn4"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mcD_2"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mcD_3r"/>
+            </RadioGroup>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height"
+            android:layout_marginBottom="@dimen/activity_vertical_margin16"
+            android:layout_marginLeft="@dimen/activity_vertical_margn8"
+            android:layout_marginRight="@dimen/activity_vertical_margn8"
+            android:layout_marginTop="@dimen/activity_vertical_margin16"
+            android:elevation="@dimen/card_elevation2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_height"
+                android:contentDescription="image"
+                android:scaleType="center"
+                android:src="@drawable/tw"
+                />
+
+            <RadioGroup
+                android:id="@+id/rgTwitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/activity_vertical_margn8"
+                android:layout_marginBottom="@dimen/activity_vertical_margn8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/twit_1"
+                    android:layout_marginTop="@dimen/activity_vertical_margn4"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/twit_2"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/twit_3r"/>
+            </RadioGroup>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+    
+
+
