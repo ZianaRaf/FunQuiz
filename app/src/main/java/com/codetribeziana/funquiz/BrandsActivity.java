@@ -406,7 +406,7 @@ public class BrandsActivity extends AppCompatActivity
 
 
             AlertDialog ad = new AlertDialog.Builder(BrandsActivity.this)
-                    .setMessage(score+getResources().getString(R.string.correct_answer)).setIconAttribute(R.attr.closeIcon)
+                    .setMessage(score+" "+getResources().getString(R.string.correct_answer)).setIconAttribute(R.attr.closeIcon)
                     .setTitle(getResources().getString(R.string.score_text))
                     .setCancelable(false)
                     .setNeutralButton(getResources().getString(R.string.dialog_confirm),new DialogInterface.OnClickListener() {
